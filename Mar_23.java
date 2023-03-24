@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Mar_23 {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int a;
+
+        System.out.printf("숫자를 입력하세요 : \n");
+        a = s.nextInt();
+
+        if (a % 3 == 0 ) {
+            System.out.printf("3의 배수입니다.");
+        }
+    }
+}
