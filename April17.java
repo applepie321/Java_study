@@ -10,7 +10,7 @@ public class April17 {
         Scanner s = new Scanner(System.in);
 
         while (counter < 5) {
-            System.out.print("Input number : ");
+            System.out.print("한자리 숫자를 입력하세요 : ");
             String a = s.nextLine();
             if (!result.contains(a)) {
                 result.add(a);
@@ -18,6 +18,6 @@ public class April17 {
             counter++;
         }
 
-        System.out.println(result);
+        System.out.printf("저장된값은 %s입니다", result);
     }
 }
